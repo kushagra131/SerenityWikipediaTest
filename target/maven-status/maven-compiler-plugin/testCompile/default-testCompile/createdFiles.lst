@@ -1,0 +1,7 @@
+com/serenity/tests/pages/CurrentPage.class
+com/serenity/tests/steps/serenity/NavigatingUser.class
+com/serenity/tests/steps/WhenBrowsingWikipediaPage.class
+com/serenity/tests/pages/CategoryNavigation.class
+com/serenity/tests/pages/SelectCategoryPage.class
+com/serenity/tests/pages/WikipediaHomePage.class
+com/serenity/tests/WikipediaSerenityTestRunner.class

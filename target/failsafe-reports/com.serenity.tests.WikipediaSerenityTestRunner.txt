@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.serenity.tests.WikipediaSerenityTestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.696 sec <<< FAILURE! - in com.serenity.tests.WikipediaSerenityTestRunner
+Then User should not see 'Welcome to Wikipedia'(Scenario: Check Espanol Page section language)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expecting:
+ <"Bienvenidos a Wikipedia,">
+to contain:
+ <"Welcome to Wikipedia">
+ (ignoring case)
+	at com.serenity.tests.steps.serenity.NavigatingUser.should_not_see_page_in_English(NavigatingUser.java:32)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092.CGLIB$should_not_see_page_in_English$3(<generated>)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092$$FastClassByCGLIB$$37a97111.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092.should_not_see_page_in_English(<generated>)
+	at com.serenity.tests.steps.WhenBrowsingWikipediaPage.shouldNotSeePageInEnglish(WhenBrowsingWikipediaPage.java:41)
+	at ✽.Then User should not see 'Welcome to Wikipedia'(src/test/resources/features/wikiEnglishPageFeatures/wikiEnglishPageCheck.feature:19)
+
+Scenario: Check Espanol Page section language  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expecting:
+ <"Bienvenidos a Wikipedia,">
+to contain:
+ <"Welcome to Wikipedia">
+ (ignoring case)
+	at com.serenity.tests.steps.serenity.NavigatingUser.should_not_see_page_in_English(NavigatingUser.java:32)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092.CGLIB$should_not_see_page_in_English$3(<generated>)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092$$FastClassByCGLIB$$37a97111.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.serenity.tests.steps.serenity.NavigatingUser$$EnhancerByCGLIB$$f3ba8092.should_not_see_page_in_English(<generated>)
+	at com.serenity.tests.steps.WhenBrowsingWikipediaPage.shouldNotSeePageInEnglish(WhenBrowsingWikipediaPage.java:41)
+	at ✽.Then User should not see 'Welcome to Wikipedia'(src/test/resources/features/wikiEnglishPageFeatures/wikiEnglishPageCheck.feature:19)
+

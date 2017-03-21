@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Wikienglishpagecheck" skipped="0" tests="2" time="16.91" timestamp="2017-03-79 09:25:57"><testcase name="Check English Page section language"/><testcase name="Check Espanol Page section language"><failure message="&#10;Expecting:&#10; &lt;&quot;Bienvenidos a Wikipedia,&quot;&gt;&#10;to contain:&#10; &lt;&quot;Welcome to Wikipedia&quot;&gt;&#10; (ignoring case)" type="java.lang.AssertionError">
+Expecting:
+ &lt;"Bienvenidos a Wikipedia,"&gt;
+to contain:
+ &lt;"Welcome to Wikipedia"&gt;
+ (ignoring case)</failure><system-err>
+Expecting:
+ &lt;"Bienvenidos a Wikipedia,"&gt;
+to contain:
+ &lt;"Welcome to Wikipedia"&gt;
+ (ignoring case)
+com.serenity.tests.steps.serenity.NavigatingUser.should_not_see_page_in_English(NavigatingUser.java:32)
+com.serenity.tests.steps.WhenBrowsingWikipediaPage.shouldNotSeePageInEnglish(WhenBrowsingWikipediaPage.java:41)
+✽.Then User should not see 'Welcome to Wikipedia'(src/test/resources/features/wikiEnglishPageFeatures/wikiEnglishPageCheck.feature:19)
+</system-err></testcase></testsuite>
