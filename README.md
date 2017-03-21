@@ -3,15 +3,16 @@
 Scenario 1 -->
 1. User will go to Wikipedia Home Page
 2. English language will be selected
-3. Welcome to Wikipedia page should be displayed in English
+3. User should see Welcome to Wikipedia page in English
 Scenario 2 -->
 1. User will go to Wikipedia Home Page
 2. Espanol language will be selected
-3. Welcome to Wikipedia page should be displayed in Espanol
+3. User should not see Welcome to Wikipedia page in Espanol
 
 Pre-requisites -->
 1. Install Google Chrome.
 2. Install eclipse.
+3. Java 8
 
 How to Run on ECLIPSE -->
 1. Import the project as Existing Maven Project, select Run As, select Run Configuration, select browse, select your project folder, click Ok.
